@@ -31,6 +31,8 @@ class App extends Component {
             image={empolyee.image}
             occupation={empolyee.occupation}
             location={empolyee.location}
+            salary={employee.salary}
+            manager={employee.manager}
           />
         ))}
       </Wrapper>
